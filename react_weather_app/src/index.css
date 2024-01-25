@@ -20,8 +20,6 @@
 body {
   height: 20vh;
   font-family: "Roboto", Arial !important;
-  display: grid;
-  place-content: center;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   background-color: #06283d;
