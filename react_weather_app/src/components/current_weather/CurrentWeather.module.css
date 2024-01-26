@@ -1,5 +1,5 @@
 .weather {
-  width: 300px;
+  width: 360px;
   border-radius: 3vh;
   color: white;
   box-shadow: #06283d 0px 7px 29px 0px;
@@ -13,6 +13,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  /* gap: 2rem; */
 }
 
 .city {
@@ -43,12 +44,20 @@
 }
 
 .details {
-  width: 100%;
+  /* width: 100%; */
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
   padding-left: 20px;
+}
+
+.details:nth-child(1){
+  margin-top: 10px;
 }
 
 .param_row {
   display: flex;
+  gap: 10px;
   justify-content: space-between;
 }
 
@@ -60,7 +69,7 @@
 
 .param_value {
   text-align: right;
-  font-weight: 6s00;
+  font-weight: 600;
   font-size: 12px;
 }
 
