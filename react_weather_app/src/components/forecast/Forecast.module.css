@@ -1,0 +1,61 @@
+.title {
+  font-size: 23px;
+  font-weight: 600;
+  color: white;
+}
+
+.dailyItem {
+  background-color: white;
+  border-radius: 2vh;
+  padding: 20px 15px;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.icon {
+  width: 40px;
+}
+
+.day {
+  color: #083f62;
+  flex: 1 1;
+  font-weight: 600;
+}
+
+.description {
+  flex: 1 1;
+  margin-right: 15px;
+  text-align: right;
+}
+
+.temp_min_max {
+  color: #706e6e;
+}
+
+.detailsGrid {
+  display: grid;
+  row-gap: 0;
+  column-gap: 15px;
+  flex: 1 1;
+  grid-template-columns: auto auto;
+  padding: 5px 15px;
+}
+
+.detailsGridItem {
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.detailsGridItem label:first-child {
+  font-weight: 400;
+}
+.detailsGridItem label:last-child {
+  font-weight: 600;
+}

@@ -16,7 +16,7 @@ const CurrentWeather = ({ currentWeather }) => {
         <img
           className={styles.icon}
           // src={`../../assets/icons/${currentWeather.weather[0].icon}`}
-          src="../../assets/icons/01d.png" // ! need to fix this
+          src={`../../assets/icons/${currentWeather.weather[0].icon}.png`} // ! need to fix this
           alt="icon"
         />
       </div>
